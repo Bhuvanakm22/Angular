@@ -1,6 +1,6 @@
 # Url Shortener - Angular Client
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2 to integrate with the repository https://github.com/thiaguimcavalcanti/url-shortener creating a UI to shorten a URL.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2 to integrate with the repository https://github.com/thiaguimcavalcanti/url-shortener creating a UI to shorten a URL. Now, it's updated with the latest version of angular.
 
 ## Development server
 
