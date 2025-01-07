@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2 to integrate with the repository https://github.com/thiaguimcavalcanti/url-shortener creating a UI to shorten a URL.
 
-##Recommended Upgrade approach for Angular
+## Recommended Upgrade approach for Angular
 Upgrade approach for Angular 6 to 17 Though the best practice is to do a step-by-step upgrade, one major version at a time, it can be safely avoided in many cases.
 
 Based on consideration of the timelines of breaking changes, this 4 stage upgrade will be the easiest:
@@ -12,8 +12,8 @@ Stage 2: Upgrade from Angular 9 to 11
 Stage 3: Upgrade from Angular 11 to 12 or 13
 Stage 4: Upgrade from Angular 12/13 to 17
 
-##To make the upgrade with the faster way but bad 
-This will not be Recommended. If we need to make the version upgrade in a quickly manner for any reason. Here is one of the approach which I tried. 
+## To make the upgrade with the faster way but badly 
+This will NOT be Recommended. If we need to make the version upgrade in a quickly manner for any reason. Here is one of the approach which I tried and documented. 
 To list outed versions and the latest versions
 npm outdated
 Update the latest package version manually in package.json under the dependencies or devDependencies section.
