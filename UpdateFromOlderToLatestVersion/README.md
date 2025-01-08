@@ -12,10 +12,12 @@ Stage 2: Upgrade from Angular 9 to 11
 Stage 3: Upgrade from Angular 11 to 12 or 13
 Stage 4: Upgrade from Angular 12/13 to 17
 
-## To make the upgrade with the faster way but badly 
-This will NOT be Recommended. If we need to make the version upgrade in a quickly manner for any reason. Here is one of the approach which I tried and documented. 
-To list outed versions and the latest versions
+## To make the upgrade with the faster way(but NOT recommended) 
+If we need to make the version upgrade in a quickly manner for any reason. Here is one of the approach which I tried and documented. 
+
+To list outed versions and the latest versions use below command:
 npm outdated
+
 Update the latest package version manually in package.json under the dependencies or devDependencies section.
 Install the updated packages by running:
 npm install
@@ -26,6 +28,8 @@ npm install codelyzer@latest --save-dev --force
 npm install @angular/compiler-cli@latest --save-dev --force
 npm install typescript@5.6.3 --save-dev --force
 
+For third party packages update we can use "ncu"
+reference to the npm-check-updates(https://www.npmjs.com/package/npm-check-updates)
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
