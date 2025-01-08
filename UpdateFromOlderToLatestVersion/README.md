@@ -1,18 +1,25 @@
 # To upgrade the Angular version quickly (though not recommended) 
 If there is a need to do so for any reason, here is one approach I tried and documented. 
 
+First, update the Angular CLI to the latest version globally and update Angular CLI Locally
+`npm install -g @angular/cli`
+`ng update @angular/cli @angular/core`
+`ng update`
+`npm update typescript --save-dev`
+`npm update rxjs@7 --save`
+
 To list outed versions and the latest versions use below command:
-npm outdated
+`npm outdated`
 
 Update the latest package version manually in package.json under the dependencies or devDependencies section.
 Install the updated packages by running:
-npm install
-npm install --legacy-peer-deps
-npm install protractor@latest --save-dev --force
-npm install @angular-devkit/build-angular@latest --save-dev --force
-npm install codelyzer@latest --save-dev --force
-npm install @angular/compiler-cli@latest --save-dev --force
-npm install typescript@5.6.3 --save-dev --force
+`npm install`
+`npm install --legacy-peer-deps`
+`npm install protractor@latest --save-dev --force`
+`npm install @angular-devkit/build-angular@latest --save-dev --force`
+`npm install codelyzer@latest --save-dev --force`
+`npm install @angular/compiler-cli@latest --save-dev --force`
+`npm install typescript@5.6.3 --save-dev --force`
 
 For third party packages update we can use "ncu"
 reference to the npm-check-updates(https://www.npmjs.com/package/npm-check-updates)
